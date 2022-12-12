@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    padding-top: 20px;
+	padding: 5px 5px;
+}
+
+.header h2 {
+	margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    justify-content: flex;
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;
+    color: #000;
+}
+
+.body-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 400px){
+    .body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+}
+
+.box{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box img{
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
